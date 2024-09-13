@@ -1,1 +1,3 @@
 npm test
+git add .
+git commit -m "pre-push coverage update"
