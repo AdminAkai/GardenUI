@@ -11,7 +11,7 @@
     "preview": "vite preview",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
-    "test": "jest --coverage --maxConcurrency=2 --testPathPattern=lib/",
+    "test": "jest --maxConcurrency=2 --testPathPattern=lib/",
     "prepare": "husky"
   },
   "lint-staged": {
