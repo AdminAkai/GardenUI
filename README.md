@@ -2,5 +2,4 @@
 
 Open Source minimal UI library
 
-NPM:
-[https://www.npmjs.com/package/adminis-gardenui]
+[https://www.npmjs.com/package/adminis-gardenui](NPM Repository)
