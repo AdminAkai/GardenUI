@@ -2,6 +2,7 @@
  * ScrambleText is a freely customizable scramble-text effect.
  * @param {string} text - Text to scramble.
  */
+
 import { DetailedHTMLProps, FC, HTMLAttributes } from 'react'
 import { useHackerScramble } from '../hooks/stringHooks'
 
