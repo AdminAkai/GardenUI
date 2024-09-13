@@ -1,6 +1,94 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1726207378028" clover="3.2.0">
-  <project timestamp="1726207378028" name="All files">
-    <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0" elements="0" coveredelements="0" complexity="0" loc="0" ncloc="0" packages="0" files="0" classes="0"/>
+<coverage generated="1726207493387" clover="3.2.0">
+  <project timestamp="1726207493387" name="All files">
+    <metrics statements="55" coveredstatements="43" conditionals="15" coveredconditionals="12" methods="8" coveredmethods="7" elements="78" coveredelements="62" complexity="0" loc="55" ncloc="55" packages="4" files="7" classes="7"/>
+    <package name="lib">
+      <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="main.ts" path="C:\Users\joshi\OneDrive\Documents\code\personal\GardenUI\lib\main.ts">
+        <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="0" type="stmt"/>
+        <line num="3" count="0" type="stmt"/>
+      </file>
+      <file name="vite-env.d.ts" path="C:\Users\joshi\OneDrive\Documents\code\personal\GardenUI\lib\vite-env.d.ts">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+    </package>
+    <package name="lib.ScrambleText">
+      <metrics statements="11" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="ScrambleText.stories.ts" path="C:\Users\joshi\OneDrive\Documents\code\personal\GardenUI\lib\ScrambleText\ScrambleText.stories.ts">
+        <metrics statements="4" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="3" count="0" type="stmt"/>
+        <line num="6" count="0" type="stmt"/>
+        <line num="27" count="0" type="stmt"/>
+        <line num="32" count="0" type="stmt"/>
+      </file>
+      <file name="ScrambleText.tsx" path="C:\Users\joshi\OneDrive\Documents\code\personal\GardenUI\lib\ScrambleText\ScrambleText.tsx">
+        <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="9" count="3" type="stmt"/>
+        <line num="11" count="3" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
+      </file>
+      <file name="index.ts" path="C:\Users\joshi\OneDrive\Documents\code\personal\GardenUI\lib\ScrambleText\index.ts">
+        <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="0" type="stmt"/>
+        <line num="3" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="lib.hooks">
+      <metrics statements="32" coveredstatements="32" conditionals="13" coveredconditionals="12" methods="4" coveredmethods="4"/>
+      <file name="stringHooks.ts" path="C:\Users\joshi\OneDrive\Documents\code\personal\GardenUI\lib\hooks\stringHooks.ts">
+        <metrics statements="32" coveredstatements="32" conditionals="13" coveredconditionals="12" methods="4" coveredmethods="4"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="3" type="stmt"/>
+        <line num="7" count="3" type="stmt"/>
+        <line num="9" count="3" type="stmt"/>
+        <line num="10" count="3" type="stmt"/>
+        <line num="11" count="3" type="cond" truecount="1" falsecount="0"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="16" count="15" type="stmt"/>
+        <line num="17" count="15" type="stmt"/>
+        <line num="18" count="180" type="cond" truecount="4" falsecount="0"/>
+        <line num="19" count="78" type="stmt"/>
+        <line num="21" count="102" type="stmt"/>
+        <line num="24" count="15" type="stmt"/>
+        <line num="25" count="15" type="cond" truecount="1" falsecount="0"/>
+        <line num="26" count="12" type="stmt"/>
+        <line num="28" count="15" type="cond" truecount="1" falsecount="0"/>
+        <line num="34" count="13" type="stmt"/>
+        <line num="36" count="15" type="stmt"/>
+        <line num="37" count="15" type="cond" truecount="1" falsecount="0"/>
+        <line num="38" count="1" type="stmt"/>
+        <line num="39" count="1" type="stmt"/>
+        <line num="40" count="1" type="stmt"/>
+        <line num="41" count="1" type="stmt"/>
+        <line num="45" count="3" type="cond" truecount="3" falsecount="0"/>
+        <line num="46" count="1" type="stmt"/>
+        <line num="48" count="3" type="stmt"/>
+        <line num="52" count="3" type="stmt"/>
+      </file>
+    </package>
+    <package name="lib.utils">
+      <metrics statements="10" coveredstatements="6" conditionals="2" coveredconditionals="0" methods="3" coveredmethods="2"/>
+      <file name="stringUtils.ts" path="C:\Users\joshi\OneDrive\Documents\code\personal\GardenUI\lib\utils\stringUtils.ts">
+        <metrics statements="10" coveredstatements="6" conditionals="2" coveredconditionals="0" methods="3" coveredmethods="2"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="102" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="102" type="stmt"/>
+        <line num="34" count="102" type="stmt"/>
+        <line num="37" count="1" type="stmt"/>
+        <line num="38" count="0" type="stmt"/>
+        <line num="39" count="0" type="stmt"/>
+        <line num="40" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="43" count="0" type="stmt"/>
+      </file>
+    </package>
   </project>
 </coverage>
