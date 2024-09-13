@@ -90,7 +90,7 @@
     "testRegex": "(/__tests__/.*|\\.(test|spec))\\.(ts|tsx|js)$",
     "collectCoverage": true,
     "collectCoverageFrom": [
-      "src/**/*.{ts,tsx}"
+      "lib/**/*.{ts,tsx}"
     ],
     "coverageDirectory": "coverage",
     "testEnvironment": "jsdom",
