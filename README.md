@@ -10,8 +10,6 @@ Open Source minimal UI library for React
 
 ## Hacker Scramble Effect:
 
-<br>
-
 #### `<ScrambleText />`
 
 Hacker Scramble Effect Component for text. Takes a `text` prop and can be customized freely.
