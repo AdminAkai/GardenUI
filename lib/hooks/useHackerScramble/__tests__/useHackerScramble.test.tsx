@@ -8,7 +8,7 @@ describe('useHackerScramble', () => {
     const { result } = renderHook(() => useHackerScramble(exampleText))
     expect(result.current).not.toEqual(exampleText)
     act(() => {
-      jest.advanceTimersByTime(exampleText.length * 60)
+      jest.advanceTimersByTime(exampleText.length * 100)
     })
     expect(result.current).toEqual(exampleText)
   })
