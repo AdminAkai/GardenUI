@@ -10,7 +10,7 @@ describe('ScrambleText', () => {
     render(<ScrambleText text={exampleText} />)
     expect(spy).toHaveBeenCalled()
     act(() => {
-      jest.advanceTimersByTime(exampleText.length * 100)
+      jest.advanceTimersByTime(exampleText.length * 60)
     })
     const originalText = screen.getByText(exampleText)
     expect(originalText).toHaveTextContent(exampleText)
