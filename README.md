@@ -6,8 +6,16 @@ Open Source minimal UI library for React
 
 ---
 
-### Hacker Scramble Effect:
+## Hacker Scramble Effect:
 
-`<ScrambleText />` - Hacker Scramble Effect Component for text.
+##### `<ScrambleText />`
+
 <br>
-`useHackerScramble()` - Hacker Scramble hook for text, the underlying driver for `<ScrambleText />`, takes text as argument and returns a text that changes and causes the component to re-render until completed.
+Hacker Scramble Effect Component for text. Takes a `text` prop and can be customized freely.
+- `text: string` - Text to scramble
+<br>
+##### `useHackerScramble()`
+<br>
+Hacker Scramble hook for text, the underlying driver for `<ScrambleText />`.
+- Takes text as argument and returns a text that changes. 
+- **Important**: Causes the component to **_re-render until the scramble is completed_**.
