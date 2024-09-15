@@ -3,7 +3,7 @@ import '@testing-library/jest-dom'
 import ScrambleText from '../ScrambleText.tsx'
 
 describe('ScrambleText', () => {
-  it('Render ScrambleText', async () => {
+  it('Renders ScrambleText component.', () => {
     jest.useFakeTimers()
     const spy = jest.spyOn(global, 'setInterval')
     const exampleText = 'ScrambleText'

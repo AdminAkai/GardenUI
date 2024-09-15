@@ -4,7 +4,7 @@
  */
 
 import { DetailedHTMLProps, FC, HTMLAttributes } from 'react'
-import { useHackerScramble } from '../hooks/stringHooks'
+import useHackerScramble from '../hooks/useHackerScramble/useHackerScramble'
 
 type ScrambleTextProps = DetailedHTMLProps<
   HTMLAttributes<HTMLSpanElement>,

@@ -1,8 +1,8 @@
 import { useState, useEffect } from 'react'
 
-import { getRandomLetter } from '../utils/stringUtils'
+import { getRandomLetter } from '../../utils/stringUtils'
 
-export const useHackerScramble = (initialWord: string): string => {
+const useHackerScramble = (initialWord: string): string => {
   const [word, setWord] = useState<string>('')
   const [start, setStart] = useState<boolean>(false)
 
@@ -51,3 +51,5 @@ export const useHackerScramble = (initialWord: string): string => {
 
   return word
 }
+
+export default useHackerScramble
