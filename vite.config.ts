@@ -5,7 +5,7 @@ import dts from 'vite-plugin-dts'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [react(), dts({ include: ['lib'], rollupTypes: true })],
+  plugins: [react(), dts({ include: ['lib'] })],
   build: {
     copyPublicDir: false,
     lib: {
@@ -14,6 +14,9 @@ export default defineConfig({
     },
     rollupOptions: {
       external: ['react', 'react/jsx-runtime', 'react-dom'],
+      output: {
+        entryFileNames: '[name].js',
+      },
     },
     sourcemap: true,
     emptyOutDir: true,
