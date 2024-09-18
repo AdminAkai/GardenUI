@@ -2,7 +2,8 @@
 
 Open Source minimal UI library for React
 
-[NPM Repo for Adminis - GardenUI](https://www.npmjs.com/package/adminis-gardenui)
+[NPM Package for Adminis - GardenUI](https://www.npmjs.com/package/adminis-gardenui)
+[Github Repo for Adminis - GardenUI](https://github.com/AdminAkai/GardenUI)
 
 ---
 
