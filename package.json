@@ -1,9 +1,11 @@
 {
   "name": "adminis-gardenui",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "type": "module",
   "author": "Adminis - Josh Trinidad",
   "license": "MIT",
+  "main": "dist/main.js",
+  "types": "dist/main.d.ts",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
@@ -12,8 +14,12 @@
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
     "test": "jest --maxConcurrency=2 --testPathPattern=lib/",
-    "prepare": "husky"
+    "prepare": "husky",
+    "prepublishOnly": "npm run build"
   },
+  "files": [
+    "dist"
+  ],
   "lint-staged": {
     "*.{js,jsx,ts,tsx}": [
       "npm run lint",
@@ -27,12 +33,14 @@
       "pre-push": "npm test"
     }
   },
-  "dependencies": {
+  "peerDependencies": {
     "react": "^18.3.1",
-    "react-dom": "^18.3.1",
-    "ts-node": "^10.9.2"
+    "react-dom": "^18.3.1"
   },
   "devDependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "ts-node": "^10.9.2",
     "@babel/preset-env": "^7.25.4",
     "@babel/preset-react": "^7.24.7",
     "@babel/preset-typescript": "^7.24.7",
